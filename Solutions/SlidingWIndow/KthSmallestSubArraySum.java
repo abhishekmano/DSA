@@ -1,5 +1,8 @@
+package Solutions.SlidingWIndow;
+
 import java.util.Arrays;
-//https://leetcode.com/problems/kth-smallest-subarray-sum/description/
+//https://leetcode.com/problems/kth-smallest-subarray-sum/
+// 1918. Kth Smallest Subarray Sum
 class Solution {
     //Binary Search on Sum less than K
     //Runs in NLogS where S is the Sum
