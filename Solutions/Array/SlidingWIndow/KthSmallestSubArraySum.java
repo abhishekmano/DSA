@@ -1,4 +1,4 @@
-package Solutions.SlidingWIndow;
+package Solutions.Array.SlidingWIndow;
 
 import java.util.Arrays;
 
