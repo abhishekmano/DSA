@@ -75,15 +75,15 @@ public class LockingTree {
         }
     }
 
-}
+    class TreeNode {
+        int val;
+        TreeNode parent;
+        List<TreeNode> children;
 
-class TreeNode {
-    int val;
-    TreeNode parent;
-    List<TreeNode> children;
-
-    public TreeNode(int value) {
-        val = value;
-        children = new ArrayList();
+        public TreeNode(int value) {
+            val = value;
+            children = new ArrayList();
+        }
     }
+
 }
