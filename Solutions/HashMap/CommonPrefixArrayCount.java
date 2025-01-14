@@ -21,4 +21,22 @@ public class CommonPrefixArrayCount {
         }
         return result;
     }
+
+    // or the comparison can be removed by
+    public int[] findThePrefixCommonArray2(int[] A, int[] B) {
+        int n = A.length;
+        int[] freq = new int[n + 1];
+        int[] result = new int[n];
+        for (int idx = 0; idx < n; ++idx) {
+            if (idx != 0)
+                result[idx] = result[idx - 1];
+            freq[A[idx]]++;
+            if (freq[A[idx]] == 2)
+                result[idx]++;
+            freq[B[idx]]++;
+            if (freq[B[idx]] == 2)
+                result[idx]++;
+        }
+        return result;
+    }
 }
