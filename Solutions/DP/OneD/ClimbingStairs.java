@@ -1,6 +1,7 @@
 package Solutions.DP.OneD;
 
 public class ClimbingStairs {
+    // O(N) time and O(1) space
     public int climbStairs(int n) {
         if (n <= 2)
             return n;
@@ -14,6 +15,7 @@ public class ClimbingStairs {
         return curr;
     }
 
+    // O(N) time and space
     public int climbStairs2(int n) {
         if (n <= 2)
             return n;
