@@ -3,6 +3,8 @@ package Solutions.Graph.DijkstrasAlgorithm;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
+//1368. Minimum Cost to Make at Least One Valid Path in a Grid
+//https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid
 public class MinimumCostForOnePath {
     int[][] dir = new int[][] { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
 
