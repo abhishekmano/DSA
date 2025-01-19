@@ -2,7 +2,7 @@ package Solutions.Greedy;
 
 //45. Jump Game II
 //https://leetcode.com/problems/jump-game-ii/
-public class JumGameTwo {
+public class JumpGameTwo {
     public int jump(int[] nums) {
         int count = 0;
         int maxDistance = 0;

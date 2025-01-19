@@ -5,7 +5,9 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.PriorityQueue;
 
-public class JumpGameSeven {
+//2297. Jump Game VIII
+//https://leetcode.com/problems/jump-game-viii/
+public class JumpGameEight {
     // using monotonic stack and DP to find minJump
     public long minCost2(int[] nums, int[] costs) {
         // from any index you can jump to next highest or equal

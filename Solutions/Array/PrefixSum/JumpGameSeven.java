@@ -2,7 +2,7 @@ package Solutions.Array.PrefixSum;
 
 //1871. Jump Game VII
 //https://leetcode.com/problems/jump-game-vii   
-public class PrefixSumFour {
+public class JumpGameSeven {
     // use the idea of prefix sum and find each index is reachable or not
     public boolean canReach(String s, int minJump, int maxJump) {
         int n = s.length();
