@@ -14,7 +14,7 @@ public class VerticalOrderTraversal {
     // O(NLog N)
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
-        Queue<Pair> bfs = new LinkedList();
+        Queue<Pair> bfs = new LinkedList<>();
         if (root != null)
             bfs.offer(new Pair(root, 0));
         while (bfs.size() != 0) {
