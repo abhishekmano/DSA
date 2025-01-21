@@ -7,6 +7,7 @@ import java.util.PriorityQueue;
 //23. Merge k Sorted Lists
 public class MergeKSortedLinkedList {
     // Runs in Nlogk
+    // where N is the total number of nodes and K is the number of lists
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<ListNode> pq = new PriorityQueue<ListNode>(new ListNodeComparator());
         ListNode dummyHead = new ListNode(-1);
