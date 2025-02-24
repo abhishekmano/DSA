@@ -1,9 +1,11 @@
-package Solutions.Tree;
+package Solutions.Tree.Traversal;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import Solutions.Tree.TreeNode;
 
 //102. Binary Tree Level Order Traversal
 //https://leetcode.com/problems/binary-tree-level-order-traversal/

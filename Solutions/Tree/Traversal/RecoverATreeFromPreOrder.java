@@ -1,7 +1,9 @@
-package Solutions.Tree;
+package Solutions.Tree.Traversal;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Solutions.Tree.TreeNode;
 
 //https://leetcode.com/problems/recover-a-tree-from-preorder-traversal
 //1028. Recover a Tree From Preorder Traversal

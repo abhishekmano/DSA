@@ -1,10 +1,12 @@
-package Solutions.Tree;
+package Solutions.Tree.Traversal;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.TreeMap;
+
+import Solutions.Tree.TreeNode;
 
 //314. Binary Tree Vertical Order Traversal
 //https://leetcode.com/problems/binary-tree-vertical-order-traversal
