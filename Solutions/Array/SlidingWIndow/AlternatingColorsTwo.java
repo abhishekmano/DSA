@@ -5,7 +5,7 @@ package Solutions.Array.SlidingWIndow;
 public class AlternatingColorsTwo {
     // Idea is to keep track of valid window and when violation comes make window
     // size 1
-    // anu time windw size >= k increase the count
+    // any time window size >= k increase the count
     public int numberOfAlternatingGroups(int[] colors, int k) {
         int count = 0;
         int n = colors.length;
