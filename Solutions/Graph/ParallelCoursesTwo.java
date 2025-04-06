@@ -6,11 +6,11 @@ import java.util.Queue;
 
 //https://leetcode.com/problems/parallel-courses-ii/
 //1494. Parallel Courses II
-public class ParallelCourses {
+public class ParallelCoursesTwo {
     public int minNumberOfSemesters(int n, int[][] relations, int k) {
         int[] pre = new int[n];
         int target = (1 << n) - 1;
-        // compute the prerequisite bitmaks of the every course
+        // compute the prerequisite bitmask of the every course
         for (int[] relation : relations) {
             int a = relation[0] - 1;
             int b = relation[1] - 1;
