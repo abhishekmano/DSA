@@ -11,9 +11,13 @@ public class ZeroArrayTransformationThree {
         int n = nums.length;
         int[] prefix = new int[n + 1];
         int counter = 0;
+        // this is to store the available end index and always take the highest
+        // available end index to continue
         PriorityQueue<Integer> pq = new PriorityQueue<Integer>((a, b) -> b - a);
         // iterate through elements in nums also the things which we made zero is idy
         for (int idx = 0, idy = 0; idx < n; ++idx) {
+            // make the counter to the current + prefix
+            // just like a running sum in prefix sum problems nothing fancy
             counter += prefix[idx];
             while (idy < queries.length && queries[idy][0] == idx) {
                 pq.offer(queries[idy][1]);
